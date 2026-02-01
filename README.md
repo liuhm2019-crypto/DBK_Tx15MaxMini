@@ -12,7 +12,7 @@ This Lua script provides real-time telemetry monitoring for your Rotorflight , d
 
 ## Features
 
-- **Helicopter-Specific Layout**: Tailored display for Goblin S2 MAX parameters
+- **Helicopter-Specific Layout**: Tailored display for RadioMaster Nexus-X/XR parameters
 - **Real-Time Telemetry**: Live updates of voltage, RPM, temperature, and signal
 - **App Mode Optimization**: Full-screen display without transmitter UI clutter
 - **Low Battery Alerts**: Visual and audio warnings (configurable thresholds)
@@ -33,8 +33,8 @@ Thank you to my friend 【Thanh Tieu】 for writing the detailed setup document.
 ## Installation
 
 1. **Copy the Script**  
-   Create a folder named `DBK_Dashboard` inside the `WIDGETS` directory and place the script inside:
-   WIDGETS/DBK_Dashboard/main.lua
+   Create a folder named `DBK_Tx15Mini` inside the `WIDGETS` directory and place the script inside:
+   WIDGETS/DBK_Tx15Mini/main.lua
 
 2. **SD Card Structure**  
 Ensure your SD card has this structure:
@@ -42,7 +42,7 @@ Ensure your SD card has this structure:
 ```plaintext  
 TX15/
 ├── WIDGETS/
-│   └── DBK_Dashboard/
+│   └── DBK_Tx15Mini/
         └── logs
 │       └── main.lua
 │       └── TG5_5.png
@@ -63,5 +63,5 @@ TX15/
 2. Navigate to **DISPLAY** menu
 3. Select an empty screen or replace existing one
 4. Choose **App Mode** (critical for full-screen display)
-5. Press **ENTER** and select `DBK_Dashboard` from the widget list
+5. Press **ENTER** and select `DBK_Tx15Mini` from the widget list
 
