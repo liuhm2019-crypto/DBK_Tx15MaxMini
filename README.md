@@ -2,11 +2,17 @@
   <img src="logo.jpg" alt="Rotorflight  Logo" width="420"/>
 </div>
 
-[![DBK Series RadioMasterTX15MAX & TX16MK2 Remote Controller Telemetry Return Interface Sharing](video.png)](https://youtu.be/BEuRPKlpn-U)
+
 
 # Rotorflight  Telemetry Widget for RadioMaster TX15
 
 A comprehensive telemetry display widget designed specifically for the Rotorflight  helicopter when used with the RadioMaster TX15 , Tx16MK2 transmitter.
+
+<div align="center">
+  <a href="https://youtu.be/BEuRPKlpn-U">
+    <img src="video.png" alt="DBK Series RadioMasterTX15MAX & TX16MK2 Remote Controller Telemetry Return Interface Sharing" width="600"/>
+  </a>
+</div>
 
 ## Overview
 
