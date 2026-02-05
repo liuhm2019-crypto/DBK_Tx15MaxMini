@@ -1060,13 +1060,13 @@ local function refresh(_j7, event, touchState)
        if _i7 and string.find(_i7, "tx15") then
          lcd.drawText(125+10, 250+_k5, "Power", BOLD +  _d6)
          lcd.drawText(180+10, 250+_k5, _i5, BOLD +  _e7)
-         local _x6 = (_k3[7][2] and _f7[7][1]) or 0
+         local _x6 = (_k3[6][2] and _f7[6][1]) or 0
          lcd.drawText(12+10, 280+_k5, "Esc Temp",   BOLD+_d6)
          lcd.drawText(90+10, 280+_k5, string.format("%.01f°C", _x6), BOLD+ _e7)
        else
          lcd.drawText(125+10, 250+_k5-15, "Power", BOLD +  _d6)
          lcd.drawText(180+10, 250+_k5-15, _i5, BOLD +  _e7)
-         local _x6 = (_k3[7][2] and _f7[7][1]) or 0
+         local _x6 = (_k3[6][2] and _f7[6][1]) or 0
          lcd.drawText(12+10, 280+_k5-20, "Esc Temp", BOLD+  _d6)
          lcd.drawText(90+10, 280+_k5-20, string.format("%.01f°C", _x6), BOLD+ _e7)
        end
